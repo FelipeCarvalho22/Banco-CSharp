@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banco_CSharp.Classes
 {
-    abstract class Usuario
+    public abstract class Usuario
     {
         public string Nome { get; set; }
         public string CPF { get; }

@@ -1,0 +1,8 @@
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\bin\Debug\Banco_CSharp.exe.config
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\bin\Debug\Banco_CSharp.exe
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\bin\Debug\Banco_CSharp.pdb
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\obj\Debug\Banco_CSharp.csproj.AssemblyReference.cache
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\obj\Debug\Banco_CSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\obj\Debug\Banco_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\obj\Debug\Banco_CSharp.exe
+C:\Users\felip\Documents\Meus Projetos\BancoCSharp\Banco_CSharp\Banco_CSharp\obj\Debug\Banco_CSharp.pdb
