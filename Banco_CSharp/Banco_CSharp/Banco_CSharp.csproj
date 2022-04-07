@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Caixa.cs" />
     <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Conta.cs" />
     <Compile Include="Classes\Funcionario.cs" />
     <Compile Include="Classes\Gerente.cs" />
     <Compile Include="Classes\Usuario.cs" />
