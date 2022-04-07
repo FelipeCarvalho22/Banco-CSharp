@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,13 +24,14 @@ namespace Banco_CSharp.Classes
 
         private int CalculoIdade(string nascimento)
         {
-            DateTime dataHora = new DateTime();
-            int anoAtual = dataHora.Year;
+            DateTime agora = DateTime.Now;
+            Calendar calendario = CultureInfo.InvariantCulture.Calendar;
+            int anoAtual = calendario.GetYear(agora);
 
-            string anoNascimentoString = nascimento.Remove(6);
-            int anoNascimento = Int32.Parse(anoNascimentoString);
+            string anoNascimentoSubString = nascimento.Substring(6);
+            int anoNascimento = Convert.ToInt32(anoNascimentoSubString);
 
-            int idade = anoNascimento - anoAtual;
+            int idade = anoAtual - anoNascimento;
             return idade;
         }
     }
