@@ -12,5 +12,15 @@ namespace Banco_CSharp.Classes
         {
             //Nenhuma Implementação
         }
+        public static bool Saque(ContaCorrente contaCorrente, float valor)
+        {
+            contaCorrente.Saque(valor);
+            return true;
+        }
+        public static bool Transferencia(ContaCorrente contaCorrenteOrigem, ContaCorrente contaCorrenteDestino, float valor)
+        {
+            contaCorrenteOrigem.Transferencia(contaCorrenteDestino, valor);
+            return true;
+        }
     }
 }

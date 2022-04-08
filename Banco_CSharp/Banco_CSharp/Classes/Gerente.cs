@@ -19,5 +19,10 @@ namespace Banco_CSharp.Classes
             listaCliente.Add(new Cliente(cpf, dataNascimento));
             return true;
         }
+        public static bool CriarConta(List<ContaCorrente> listaContaCorrente, Cliente cliente, int numeroAgencia, bool criarPoupanca)
+        {
+            listaContaCorrente.Add(new ContaCorrente(cliente, numeroAgencia, criarPoupanca));
+            return true;
+        }
     }
 }
